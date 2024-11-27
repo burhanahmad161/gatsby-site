@@ -13,6 +13,8 @@ module.exports = {
     description: `A simple site built with gatsby`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    pathPrefix: "/gatsby-site",
+    plugins: ["gatsby-plugin-react-helmet"],
   },
   plugins: [
     `gatsby-plugin-image`,
